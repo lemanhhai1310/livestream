@@ -3,13 +3,13 @@
     <div class="uk-container">
         <div class="uk-grid-small uk-child-width-1-2@m" uk-grid>
             <div class="uk-width-1-1">
-                <a href="#"><img class="uk-width-1-1" src="https://i.imgur.com/gNrUg8H.gif" alt=""></a>
+                <a href="#"><img class="uk-width-1-1" src="imgs/banner/1.gif" alt=""></a>
             </div>
             <div>
-                <a href="#"><img class="uk-width-1-1" src="https://i.imgur.com/c5GiyAJ.gif" alt=""></a>
+                <a href="#"><img class="uk-width-1-1" src="imgs/banner/2.gif" alt=""></a>
             </div>
             <div>
-                <a href="#"><img class="uk-width-1-1" src="https://i.imgur.com/iL6nkdE.gif" alt=""></a>
+                <a href="#"><img class="uk-width-1-1" src="imgs/banner/3.gif" alt=""></a>
             </div>
         </div>
     </div>

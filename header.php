@@ -40,7 +40,7 @@
      theme_color="#24892d">
 </div>
 <section id="root" class="uk-height-viewport uk-offcanvas-content">
-<nav id="nav-main" class="uk-navbar-container" uk-navbar>
+<nav id="nav-main" class="uk-navbar-container" uk-navbar uk-sticky>
 
     <div class="uk-navbar-left">
 
