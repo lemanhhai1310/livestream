@@ -3,7 +3,7 @@
 <div class="uk-container uk-container-small">
     <div class="uk-grid-small content uk-position-relative" uk-grid>
         <div class="uk-width-auto uk-position-center-left-out">
-            <iframe src="http://themes.cathtmlcss.net/2019/05/chatbot/" width="300" height="700"></iframe>
+            <?php include_once "trandau.php"; ?>
         </div>
         <div class="uk-width-expand">
             <div class="uk-grid-collapse box4" uk-grid>
@@ -76,15 +76,181 @@
                     <button class="uk-button uk-button-secondary">Copy link</button>
                 </div>
             </div>
-            <ul class="uk-subnav uk-subnav-pill" uk-switcher>
+            <ul class="uk-subnav uk-subnav-pill tab1" uk-switcher>
                 <li><a href="#">Diễn biến trận đấu</a></li>
                 <li><a href="#">Đội hình ra sân</a></li>
                 <li><a href="#">Thông số trận đấu</a></li>
+
             </ul>
-            <div class="uk-switcher uk-margin">
-                <div>1</div>
+            <div class="uk-switcher">
+                <div>
+                    <table class="uk-table uk-table-striped uk-table-middle table1 uk-text-center">
+                        <thead class="uk-visible-toggle">
+                        <tr>
+                            <th class="uk-table-expand">Chelsea 2</th>
+                            <th class="uk-width-small"><b>FT</b></th>
+                            <th class="uk-table-expand">West Ham United 0</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td></td>
+                            <td><b>90’</b></td>
+                            <td>
+                                <div>
+                                    <img src="imgs/thevang.jpg" alt="">
+                                    <span class="uk-text-middle uk-margin-small-left">Andrew Robertson</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><b>87’</b></td>
+                            <td>
+                                <div>
+                                    <img src="imgs/vaosan.png" alt="">
+                                    <span class="uk-text-middle uk-margin-small-left vaosan">Adam Lallana</span>
+                                </div>
+                                <div>
+                                    <img src="imgs/rasan.png" alt="">
+                                    <span class="uk-text-middle uk-margin-small-left rasan">James Milner</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><b>84’</b></td>
+                            <td>
+                                <div class="uk-grid-small uk-flex-middle sutvao" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img src="imgs/sutvao.png" alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div>Sadio Mané(1-3)</div>
+                                        <small>assist by Mohamed Salah</small>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <span class="uk-text-middle uk-margin-small-right">Andrew Robertson</span>
+                                    <img src="imgs/thevang.jpg" alt="">
+                                </div>
+                            </td>
+                            <td><b>83’</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <span class="uk-text-middle uk-margin-small-right vaosan">Adam Lallana</span>
+                                    <img src="imgs/vaosan.png" alt="">
+                                </div>
+                                <div>
+                                    <span class="uk-text-middle uk-margin-small-right rasan">James Milner</span>
+                                    <img src="imgs/rasan.png" alt="">
+                                </div>
+                            </td>
+                            <td><b>79’</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><b>72’</b></td>
+                            <td>
+                                <div>
+                                    <img src="imgs/thevang.jpg" alt="">
+                                    <span class="uk-text-middle uk-margin-small-left">Andrew Robertson</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><b>69’</b></td>
+                            <td>
+                                <div>
+                                    <img src="imgs/vaosan.png" alt="">
+                                    <span class="uk-text-middle uk-margin-small-left vaosan">Adam Lallana</span>
+                                </div>
+                                <div>
+                                    <img src="imgs/rasan.png" alt="">
+                                    <span class="uk-text-middle uk-margin-small-left rasan">James Milner</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><b>65’</b></td>
+                            <td>
+                                <div class="uk-grid-small uk-flex-middle sutvao" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img src="imgs/sutvao.png" alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div>Sadio Mané(1-3)</div>
+                                        <small>assist by Mohamed Salah</small>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <span class="uk-text-middle uk-margin-small-right">Andrew Robertson</span>
+                                    <img src="imgs/thevang.jpg" alt="">
+                                </div>
+                            </td>
+                            <td><b>26’</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <span class="uk-text-middle uk-margin-small-right vaosan">Adam Lallana</span>
+                                    <img src="imgs/vaosan.png" alt="">
+                                </div>
+                                <div>
+                                    <span class="uk-text-middle uk-margin-small-right rasan">James Milner</span>
+                                    <img src="imgs/rasan.png" alt="">
+                                </div>
+                            </td>
+                            <td><b>13’</b></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
                 <div>2</div>
                 <div>3</div>
+            </div>
+            <div class="uk-padding-small box8">
+                <table class="uk-table table2 uk-margin-remove">
+                    <tbody>
+                    <tr>
+                        <td class="uk-width-small">Giải đấu:</td>
+                        <td>Champions League Final Stage</td>
+                    </tr>
+                    <tr>
+                        <td class="uk-width-small">Trọng tài:</td>
+                        <td>Daniele Orsato</td>
+                    </tr>
+                    <tr>
+                        <td class="uk-width-small">Sân vận động:</td>
+                        <td>Allianz Arena</td>
+                    </tr>
+                    <tr>
+                        <td class="uk-width-small">Khán giả:</td>
+                        <td>68145</td>
+                    </tr>
+                    <tr>
+                        <td class="uk-width-small">Thời gian thi đấu:</td>
+                        <td>Thu, Mar 14, 2019, 03:00</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <div class="uk-width-auto uk-position-center-right-out">
