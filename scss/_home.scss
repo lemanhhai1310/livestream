@@ -21,6 +21,9 @@ $width_space_content: 9px;
   background-color: #323232;
   padding: 10px 15px;
   border-left: 3px solid #8cba3f;
+  &.live{
+    border-left-color: #ff000a;
+  }
 }
 .box7{
   background-color: #181818;
@@ -186,19 +189,24 @@ $width_space_bong: 9px;
   justify-content: center;
   width: 70px;
   img{
-    width: 50px;
+    width: 40px;
   }
 }
 .title_db{
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 17px;
+  font-weight: 500;
   & + span{
     color: #b5b5b5;
     font-size: 13px;
   }
 }
 .box5{
-  background-color: #282828;
+  //background-color: #282828;
+  .uk-padding-small{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .box3{
   color: #ffffff;
@@ -209,10 +217,10 @@ $width_space_bong: 9px;
   >div{
     background-color: #3c3c3c;
     padding: 0 30px;
+    color: #FFFFFF;
     font-size: 12px;
     i.fa{
       font-size: 8px;
-      color: #ff000a;
     }
   }
 }
@@ -222,4 +230,12 @@ $width_space_bong: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.live1{
+  font-size: 10px;
+  color: #b5b5b5;
+  i.fa{
+    color: #ff000a;
+    font-size: 6px;
+  }
 }

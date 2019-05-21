@@ -1,8 +1,8 @@
 <?php include_once "header.php"; ?>
 <?php include_once "block_ads.php"; ?>
-<div class="uk-container uk-container-small">
+<div class="uk-container-expand">
     <div class="uk-grid-small content uk-position-relative" uk-grid>
-        <div class="uk-width-auto uk-position-center-left-out">
+        <div class="uk-width-auto">
             <?php include_once "trandau.php"; ?>
         </div>
         <div class="uk-width-expand">
@@ -12,7 +12,7 @@
                 </div>
                 <div class="uk-width-expand">
                     <div class="uk-height-1-1 box1">
-                        <marquee>
+                        <marquee onmouseover="this.stop();" onmouseout="this.start();">
                             <span class="uk-margin-right"><i class="fa fa-circle uk-text-middle" aria-hidden="true"></i> Tổng thống Trump ký sắc lệnh tuyên bố tình trạng khẩn cấp, cấm các nhà mạng Mỹ dùng thiết bị Huawei <a href="#">Tham gia tại đây</a></span>
                             <span class="uk-margin-right"><i class="fa fa-circle uk-text-middle" aria-hidden="true"></i> Hoc HTML tai VietJack - Vi du cach su dung the marquee. <a href="#">Tham gia tại đây</a></span>
                         </marquee>
@@ -41,7 +41,7 @@
                 <div class="uk-width-auto">
                     <div class="uk-text-center uk-height-1-1 box3">
                         <span class="tyso uk-text-bold">2 - 2</span>
-                        <div><i class="fa fa-circle uk-text-middle" aria-hidden="true"></i> Phút 49</div>
+                        <div class="live1"><i class="fa fa-circle uk-text-middle" aria-hidden="true"></i> Phút 49</div>
                     </div>
                 </div>
                 <div class="uk-width-expand">
@@ -58,9 +58,10 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-cover-container">
+            <div style="position:relative; padding-bottom:56.25%; overflow:hidden;"><iframe src="https://cdn.jwplayer.com/players/az6jjFJU-6M37AJhp.html" width="100%" height="100%" frameborder="0" scrolling="auto" allowfullscreen style="position:absolute;"></iframe></div>
+            <div class="uk-cover-container" hidden>
                 <img src="imgs/tv.jpg" alt="" uk-cover>
-                <canvas width="1154" height="650"></canvas>
+                <canvas width="5000" height="2816"></canvas>
             </div>
             <div class="uk-padding-small box7 uk-flex uk-flex-middle uk-flex-between uk-margin-bottom">
                 <div class="uk-button-group btn1">
@@ -253,8 +254,12 @@
                 </table>
             </div>
         </div>
-        <div class="uk-width-auto uk-position-center-right-out">
-            <iframe src="http://themes.cathtmlcss.net/2019/05/chatbot/" width="360" height="700"></iframe>
+        <div class="uk-width-auto">
+            <div class="chat1">
+                <div uk-sticky="offset: 0">
+                    <iframe src="http://themes.cathtmlcss.net/2019/05/chatbot/" width="100%" height="700"></iframe>
+                </div>
+            </div>
         </div>
     </div>
 </div>

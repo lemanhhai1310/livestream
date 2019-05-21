@@ -1,5 +1,5 @@
-<div class="uk-section-xsmall block_ads uk-margin-remove" uk-alert>
-    <a class="uk-alert-close" uk-close></a>
+<div class="uk-section-xsmall block_ads uk-margin" uk-alert>
+    <a class="uk-alert-close uk-position-bottom-right" style="top: inherit"> <span uk-icon="triangle-up"></span> Ẩn quảng cáo</a>
     <div class="uk-container">
         <div class="uk-grid-small uk-child-width-1-2@m" uk-grid>
             <div class="uk-width-1-1">

@@ -40,7 +40,7 @@
      theme_color="#24892d">
 </div>
 <section id="root" class="uk-height-viewport uk-offcanvas-content">
-<nav id="nav-main" class="uk-navbar-container" uk-navbar uk-sticky>
+<nav id="nav-main" class="uk-navbar-container uk-margin" uk-navbar uk-sticky="show-on-up: true; animation: uk-animation-slide-top;">
 
     <div class="uk-navbar-left">
 
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </a>
-                <div class="uk-navbar-dropdown">
+                <div class="uk-navbar-dropdown" uk-dropdown="mode: click">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li class="uk-active"><a href="#">Active</a></li>
                         <li><a href="#">Item</a></li>
