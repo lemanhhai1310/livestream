@@ -1,5 +1,9 @@
-<div class="trandau uk-position-relative">
-    <a href="javascript: void(0)" uk-tooltip="Ẩn các trận đấu" class="uk-button uk-button-default btn2 uk-position-top-right"><img src="imgs/arrow1.png" alt=""></a>
+<div class="btn-sidebar uk-text-right" uk-sticky="offset: 65">
+    <div class="uk-position-relative">
+        <a class="uk-button uk-button-default btn2 btn2-click" href="javascript: void(0)" uk-toggle="target: #toggle-usage; animation: uk-animation-slide-left; mode: click, media;" uk-tooltip="Ẩn các trận đấu"><img src="imgs/arrow1.png" alt=""></a>
+    </div>
+</div>
+<div class="trandau uk-position-relative" id="toggle-usage">
     <h2 class="title_tb live" style="color: #d4d4d4">Trận đấu đang diễn ra</h2>
     <table class="uk-table table3 uk-table-middle uk-text-center uk-margin-remove uk-table-hover">
         <tbody>
@@ -196,3 +200,4 @@
         </tbody>
     </table>
 </div>
+<a class="uk-button uk-button-default btn2 uk-invisible"><img src="imgs/arrow1.png" alt=""></a>

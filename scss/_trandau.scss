@@ -66,6 +66,9 @@
 }
 .trandau{
   width: 14rem;
+  &:not(.uk-open){
+    //display: none;
+  }
 }
 .chat1{
   width: 22rem;
@@ -76,9 +79,17 @@
 $height-btn2: 28px;
 .btn2{
   line-height: $height-btn2;
-  top: (40px - $height-btn2)/2;
   border: none;
   padding: 0 10px;
   border-radius: 4px 0 0 4px;
   background-image: linear-gradient(72deg, #7cb03f, #82b43f 64%, #b7d23f);
+}
+.btn-sidebar{
+  z-index: 99999;
+}
+.btn2-click{
+  z-index: 999999;
+  position: absolute;
+  top: (40px - $height-btn2)/2;
+  right: 0;
 }

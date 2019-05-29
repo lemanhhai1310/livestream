@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <!--CSS-->
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/uikit-3.1.5/css/uikit.min.css">
     <link rel="stylesheet" href="css/layout.css">
     <!--JS-->
     <script src="assets/jquery/jquery-3.3.1.js"></script>
-    <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
-    <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
+    <script src="assets/uikit-3.1.5/js/uikit.min.js"></script>
+    <script src="assets/uikit-3.1.5/js/uikit-icons.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
 <!-- Load Facebook SDK for JavaScript -->
@@ -94,11 +95,19 @@
                         </div>
                     </div>
                 </a>
-                <div class="uk-navbar-dropdown" uk-dropdown="mode: click">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">Active</a></li>
-                        <li><a href="#">Item</a></li>
-                        <li><a href="#">Item</a></li>
+                <div class="uk-navbar-dropdown uk-padding-remove box8" uk-dropdown="pos: bottom-right; mode: click">
+                    <div class="user_acc">
+                        <ul class="uk-list">
+                            <li>Email: <b>hai.lemanh.1310@gmail.com</b></li>
+                            <li>ID: <b>203</b></li>
+                            <li>Số dư: <span>2,301,011</span> <img class="coin" src="imgs/coin.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <ul class="uk-nav uk-navbar-dropdown-nav uk-text-center user_menu">
+                        <li><a href="#">Tài khoản</a></li>
+                        <li class="uk-active"><a href="#">Nạp coin</a></li>
+                        <li><a href="#">Chuyển coin</a></li>
+                        <li><a href="#">Đăng xuất</a></li>
                     </ul>
                 </div>
             </li>

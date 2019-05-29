@@ -33,6 +33,23 @@ $width_space_content: 9px;
   color: #ffffff;
   display: flex;
   align-items: center;
+  .uk-alert{
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+  }
+  .uk-alert-close{
+    svg{
+      display: none;
+    }
+    z-index: 100;
+    top: inherit;
+    bottom: 0;
+    right: 0;
+    opacity: 1 !important;
+    height: 100%;
+  }
   i.fa{
     font-size: 5px;
     color: #8cba3f;
@@ -234,8 +251,12 @@ $width_space_bong: 9px;
 .live1{
   font-size: 10px;
   color: #b5b5b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   i.fa{
     color: #ff000a;
     font-size: 6px;
+    margin-right: 3px;
   }
 }
