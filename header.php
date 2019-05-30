@@ -45,7 +45,7 @@
 
     <div class="uk-navbar-left">
 
-        <a class="uk-navbar-item uk-logo" href="#"><img src="imgs/logo1.png" alt=""></a>
+        <a class="uk-navbar-item uk-logo" href="."><img src="imgs/logo1.png" alt=""></a>
 
         <ul class="uk-navbar-nav">
             <li class="uk-active">
